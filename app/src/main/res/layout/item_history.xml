@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cvHistory"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:id="@+id/ivHistoryComputer"
+        android:layout_width="103dp"
+        android:layout_height="94dp"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:contentDescription="@string/computer"
+        android:src="@drawable/paper" />
+
+    <ImageView
+        android:id="@+id/ivHistoryUser"
+        android:layout_width="103dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:contentDescription="@string/user"
+        android:src="@drawable/scissors" />
+
+    <TextView
+        android:id="@+id/tvHistoryVersus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/versus"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvHistoryComputer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/computer" />
+
+    <TextView
+        android:id="@+id/tvHistoryUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/you" />
+</androidx.cardview.widget.CardView>
